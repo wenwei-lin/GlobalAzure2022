@@ -1,4 +1,5 @@
-# GlobalAzure2022
+# Global Azure 2022—Build online resume using Azure Static Web Apps
+
 *Do you want to have an online resume that everyone can watch? Come on!*
 
 **Azure Static Web Apps** service automatically build and deploy your web apps from the GitHub repository. In this workshop, we will build own resume from the template and deploy it as a Azure Static Web App.
