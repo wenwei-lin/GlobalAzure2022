@@ -17,3 +17,9 @@ _Do you want to have an online resume that everyone can watch? Come on!_
 - Learn the feature of Azure Static Web Apps
 - Build your personal resume site from template
 - Deploy resume site to Azure using Azure Static Web Apps
+
+## Preview resume
+
+After this workshop, you will build an online resume like following.
+
+![Resume Demo](preview.png)
