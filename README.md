@@ -9,8 +9,9 @@ _Do you want to have an online resume that everyone can watch? Come on!_
 - A modern web browser like [Microsoft Edge](https://www.microsoft.com/edge?WT.mc_id=academic-51109-ornella) or [Google Chrome](https://www.google.com/chrome/)
 - [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-56895-chnoring)
 - [Azure Static Web Apps VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestaticwebapps&WT.mc_id=academic-56895-chnoring)
+- [Git](https://git-scm.com/downloads)
 - Azure account ([Free account](https://azure.microsoft.com/en-us/free/) or [Student account](https://azure.microsoft.com/en-us/free/students/))
-- GitHub account
+- [GitHub account](https://github.com/)
 
 ## What you will learn
 
@@ -22,4 +23,4 @@ _Do you want to have an online resume that everyone can watch? Come on!_
 
 After this workshop, you will build an online resume like following.
 
-![Resume Demo](preview.png)
+![Resume Demo](./img/preview.png)
