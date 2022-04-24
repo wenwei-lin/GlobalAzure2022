@@ -25,9 +25,7 @@ Click ***Create repository from template*** button to continue.
 
 ## Step 2: Clone the repo to your PC
 
-To customize the resume, we need to edit the `index.html`. 
-
-Since we will use [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-56895-chnoring) in the following steps, it's better to clone this repo locally and push the repo after making changes.
+Next, we will clone the resume repository to our local PC.
 
 > Note  
 > You should make sure you have configured GitHub SSH connection.  
@@ -37,7 +35,7 @@ Since we will use [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=a
 
 ![](img/copy_repo_url.png)
 
-**Open Shell in your computer and clone the repo to target location**
+**Open Shell in your computer and clone the repo to the location you like.**
 
 ```bash
 $ git clone <repo_url>
@@ -47,8 +45,7 @@ $ git clone <repo_url>
 
 ## Step 3: Create an Azure Static Web Apps Service for your resume
 
-Congrats! You've created your resume page! ***It's time to show it to world!***
-
+Azure Static Web Apps service will host your website on Azure. After that, you can visit your website online. Let's make it!
 
 Change your current directory to the repo, and use `.code` command to open Visual Studio Code.
 
@@ -74,21 +71,13 @@ $ code .
 
 ![](img/select_static.png)
 
-4. Commit the current change
-
-![](img/commit-change.png)
-
-5. Type commit message like "Customize my resume" and press \<Enter\>
-
-![](img/commit-2.png)
-
-6. Next, name your application.
+4. Next, name your application.
 
 Type resume and press <Enter>.
 
 ![](img/app-name.png)
 
-7. Select a region close to you.
+5. Select a region close to you.
 
 **Note: Azure Static Web Apps globally distributes your static assets. The region you select determines where your optional staging environments and API function app will be located.**
 
@@ -125,16 +114,44 @@ Your site will look like this:
 ![](img/site.png)
 
 
-## Step 4: Edit the project with Visual Studio Code
+## Step 4: Customize your resume with Visual Studio Code and push the change
 
-open `index.html` in editor, and replace default value, like 'YOUR NAM', 'YOUR TITLE', etc. with your information.
+Every time you push the change to your GitHub repository, it will automatically trigger a GitHub action to deploy your website. Let's walk through it.
+
+1. Customize the resume
+
+Open `index.html` in editor, and replace default value, like 'YOUR NAM', 'YOUR TITLE', etc. with your information.
 
 After customization, open the `index.html` with the browser, and your resume will look like this:
 
 ![](img/resume_look.png)
 
+2. Push the change to GitHub
+
+Open a new terminal in Visual Studio Code,
+
+![](img/new-terminal.png)
+
+and enter the following command to commit and push the change.
+
 ```bash
-git commit -a -m "Customize my site"
-git pull
-git push
+$ git commit -a -m "Customize my resume"
+$ git push
 ```
+![](img/commit-change.png)
+
+3. Wait for deployment
+
+Navigate to your **GitHub repository - Actions**, wait for the deployment. It will take 1~2 min.
+
+![](img/github-action.png)
+
+Now visit your website again, your resume has updated!
+
+![](img/updated.png)
+
+## Next 
+
+Congrats! You have created your resume site. It's time to share the link with your friend!
+
+If you own a domain, you can bind this web with it. [Check this doc for more information](https://docs.microsoft.com/en-us/azure/static-web-apps/custom-domain).
