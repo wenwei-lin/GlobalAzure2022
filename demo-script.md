@@ -45,7 +45,10 @@ $ git clone <repo_url>
 
 ![](img/clone.png)
 
-## Step 3: Edit the project with Visual Studio Code
+## Step 3: Create an Azure Static Web Apps Service for your resume
+
+Congrats! You've created your resume page! ***It's time to show it to world!***
+
 
 Change your current directory to the repo, and use `.code` command to open Visual Studio Code.
 
@@ -56,15 +59,6 @@ $ code .
 
 ![](img/vscode.png)
 
-Then open `index.html` in editor, and replace default value, like 'YOUR NAM', 'YOUR TITLE', etc. with your information.
-
-After customization, open the `index.html` with the browser, and your resume will look like this:
-
-![](img/resume_look.png)
-
-## Step 4: Create an Azure Static Web Apps Service for your resume
-
-Congrats! You've created your resume page! ***It's time to show it to world!***
 
 1. **Install Azure Static Web Apps extension in Visual Studio Code**
 
@@ -88,4 +82,59 @@ Congrats! You've created your resume page! ***It's time to show it to world!***
 
 ![](img/commit-2.png)
 
-6. 
+6. Next, name your application.
+
+Type resume and press <Enter>.
+
+![](img/app-name.png)
+
+7. Select a region close to you.
+
+**Note: Azure Static Web Apps globally distributes your static assets. The region you select determines where your optional staging environments and API function app will be located.**
+
+![](img/region.png)
+
+8. Select Custom
+
+![](img/custom.png)
+
+Enter / as the location for the application files and press \<Enter\>.
+
+![](img/location.png)
+
+This app does not produce a build output. Ensure the build output location is empty and press \<Enter\>.
+
+![](img/output.png)
+
+9. Select “Open Actions in GitHub.” This will launch the GitHub Actions tab in your browser. You will see the workflow run as it is creating the app. When your webapp is built and deployed, you will see a check for the workflow run.
+
+![](img/open-github.png)
+
+Once the app is created, navigate back to Visual Studio Code - a confirmation notification is shown there. The Visual Studio Code extension also reports the build status to you as the deployment is in progress – and will update you when your app is built and deployed.
+
+![](img/complete.png)
+
+Once the deployment is complete, you can navigate directly to your website.
+
+10. To view the website in the browser, right-click on the project in the Static Web Apps extension, and select Browse Site.
+
+![](img/browse.png)
+
+Your site will look like this:
+
+![](img/site.png)
+
+
+## Step 4: Edit the project with Visual Studio Code
+
+open `index.html` in editor, and replace default value, like 'YOUR NAM', 'YOUR TITLE', etc. with your information.
+
+After customization, open the `index.html` with the browser, and your resume will look like this:
+
+![](img/resume_look.png)
+
+```bash
+git commit -a -m "Customize my site"
+git pull
+git push
+```
