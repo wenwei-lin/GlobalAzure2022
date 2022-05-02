@@ -1,26 +1,11 @@
-# Global Azure 2022—Show your resume to world with Azure Static Web Apps
+# Global Azure 2022—Web开发 & Azure云计算
 
-_Do you want to have an online resume that everyone can watch? Come on!_
+*云计算和Web开发碰撞在一起会产生什么火花呢？*
 
-**Azure Static Web Apps** service automatically build and deploy your web apps from the GitHub repository. In this workshop, we will build own resume from the template and deploy it as a Azure Static Web App.
+在本次活动中，我们将讨论Web开发基础知识，Azure云计算，以及如何使用 Azure Static Web Apps 服务部署你的第一个 Web 应用。
 
-## What you'll need
+## 活动时间
 
-- A modern web browser like [Microsoft Edge](https://www.microsoft.com/edge?WT.mc_id=academic-51109-ornella) or [Google Chrome](https://www.google.com/chrome/)
-- [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-56895-chnoring)
-- [Azure Static Web Apps VS Code Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestaticwebapps&WT.mc_id=academic-56895-chnoring)
-- [Git](https://git-scm.com/downloads)
-- Azure account ([Free account](https://azure.microsoft.com/en-us/free/) or [Student account](https://azure.microsoft.com/en-us/free/students/))
-- [GitHub account](https://github.com/)
+**2022年5月6日 20:00 - 20:45 \(北京时间\)**
 
-## What you will learn
-
-- Learn the feature of Azure Static Web Apps
-- Build your personal resume site from template
-- Deploy resume site to Azure using Azure Static Web Apps
-
-## Preview resume
-
-After this workshop, you will build an online resume like following.
-
-![Resume Demo](./img/preview.png)
+**Teams会议**
