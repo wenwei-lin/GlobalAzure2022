@@ -9,3 +9,8 @@
 **2022年5月6日 20:00 - 20:45 \(北京时间\)**
 
 **Teams会议**
+
+## 活动资料
+
+* [视频回放](https://stdntpartners-my.sharepoint.com/:v:/g/personal/wenwei_lin_studentambassadors_com/EUuqVNEUe1VDk21A-FrSWrEB95_ORi7jHwGWHvP_4zNYJQ?e=5ljukz)
+* [PPT](./Slides.pptx)
